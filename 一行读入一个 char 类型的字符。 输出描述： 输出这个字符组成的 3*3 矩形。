@@ -1,0 +1,57 @@
+//输入描述：
+//一行读入一个 char 类型的字符。
+//输出描述：
+//输出这个字符组成的 3*3 矩形。
+
+//示例1
+//输入：
+//#
+//输出：
+//###
+//###
+//###
+
+
+第一次  笨方法
+#include <stdio.h>
+
+int main() {
+    char a;
+
+    scanf("%c", &a);
+    printf("%c", a);
+    printf("%c", a);
+    printf("%c\n", a);
+    printf("%c", a);
+    printf("%c", a);
+    printf("%c\n", a);
+    printf("%c", a);
+    printf("%c", a);
+    printf("%c\n", a);
+
+
+    return 0;
+}
+
+
+//第二次 学会char  这种数据类型   其实和%d 用法是一样的
+
+#include <stdio.h>
+
+int main()
+{
+    char a;
+   
+    scanf("%c", &a);
+    printf("%c%c%c\n",a,a,a);
+    printf("%c%c%c\n",a,a,a);
+    printf("%c%c%c\n",a,a,a);
+
+
+
+        return 0;
+}
+
+
+//第三次 学循环   不然要是碰见输出100次呢    考点：循环和printf 组合使用
+
